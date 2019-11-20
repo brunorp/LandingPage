@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+}
+
+body, html{
+	height: 100%;
+}
+
+.center{
+	width: 90%;
+	margin: 0 auto;
+}
+
+div[class*="header"]{
+	width: 100%;
+	height: 10vh;
+	background-color: #212343;
+	display: flex;
+	align-items: center;
+}
+
+div[class*="header"] > img:nth-child(1) {
+	margin: 0 20px;
+}
+
+.container{
+	width: 100%;
+	height: 75vh;
+	background-image:url('../images/header_bg.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.container > .center {
+	height: 100%;
+}
+
+.form {
+	padding:15px;
+	width: 25vw;
+	height: calc(100% + 40px);
+	float:right;
+	position: relative;
+	top: -20px;
+	border: 10px solid #ccc;
+	background-color: #FFF;
+}
+
+.form > h2{
+	font-weight: normal;
+	color: #999999;
+	font-size: 25px;
+}
+
+form > .input-container {
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 20px;
+}
+
+.input-container > span, form > p {
+	width: 100%;
+	display: inline-block;
+	color: #BBBBBB;
+	font-size: 19px;
+}
+
+form > p{
+	margin: 20px 0;
+}
+
+.input-container > input {
+	width: 100%;
+	display: inline-block;
+	height: 7vh;
+	font-size: 20px;
+	border: 1px solid #ccc;
+	margin-top: 8px;
+}
+
+form input[type="submit"]{
+	width: 80%;
+	margin: 0 10%;
+	padding:10px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	background-color: #363A6D;
+}
+
+.container-list {
+	margin-top: 8%;
+	float: left;
+	width: 50%;
+	height: 40vh;
+	padding: 30px;
+	background-color: rgba(33, 35, 67, 0.7);
+}
+
+.container-list > ul {
+	list-style-position: inside;
+}
+
+.container-list > ul > li {
+	margin: 0 auto;
+	font-size: 20px;
+	word-spacing: 5px;
+	margin-top:10px;
+	color: #FFF;
+}
+
+.section {
+	padding:40px 0;
+	text-align: center;
+	background-color: #DDDDDD;
+}
+
+.section h2{
+	font-weight: normal;
+}
+
+.section p {
+	width: 60%;
+	display: inline-block;
+	text-align: justify;
+	margin: 15px 0;
+}
+
+.arrow{
+	width: 40px;
+	height: 40px;
+	background-size: 100% 100%;
+	background-image: url('../images/arrow.png');
+	position: relative;
+	top: 60px;
+	left: 50%;
+	margin-left: -20px;
+}
